@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Dave&#39;s 📄 Profile</title>
     <meta name="theme-color" content="#3a7bd5" />
     <meta name="description" content="Web Developer, Dave's Profile." />
@@ -24,9 +27,8 @@
         <div class="top__nav">
           <img src="images/profile.png" class="profile" />
           <h1>
-            Hello, <br />I'm Seulgi David Hyoung<span class="pick-color"
-              >.</span
-            >
+            <!-- <img src="images/icons/my_icon_1.png" class="icons" /> -->
+            Hello, <br />I'm Seulgi David Hyoung<span class="pick-color">.</span>
           </h1>
         </div>
         <p class="text">
@@ -50,36 +52,94 @@
         <ul>
           <li>Phone : +82 1083240892</li>
           <li>Email : hsg829@gmail.com</li>
+          
           <li>
-            Github :
-            <a href="https://github.com/dave829" target="_blank"
-              >https://github.com/dave829</a
-            >
+           Github : <a href="https://github.com/dave829" target="_blank">https://github.com/dave829</a>
           </li>
           <li>
-            LinkedIn :
-            <a href=" https://www.linkedin.com/in/dave829/">
+            LinkedIn : 
+            <a href=" https://www.linkedin.com/in/dave829/"
+              > 
               https://www.linkedin.com/in/dave829/</a
             >
           </li>
-          <li>WhatsApp : +82 10 8324 0892</li>
           <li>
-            Profile Page :
-            <a href="https://dave829.github.io/my_resume_en/" target="_blank"
+            
+              WhatsApp : +82 10 8324 0892
+            
+          </li>
+          <li>
+            Profile Page : <a href="https://dave829.github.io/my_resume_en/" target="_blank"
               >https://dave829.github.io/my_resume_en/</a
             >
           </li>
           <li>
-            Notion CV :
-            <a
-              href="https://www.notion.so/Resume-CV-0fe8a7c2f54c4ede828fbd19036a3e83"
-              >https://www.notion.so/Resume-CV-0fe8a7c2f54c4ede828fbd19036a3e83</a
-            >
+            Notion CV : <a href="https://www.notion.so/Resume-CV-0fe8a7c2f54c4ede828fbd19036a3e83">https://www.notion.so/Resume-CV-0fe8a7c2f54c4ede828fbd19036a3e83</a>
           </li>
+
+          
         </ul>
       </section>
       <section class="mywork_section">
         <h2>My Work<span class="pick-color">.</span></h2>
+        <!-- <div class="other mywork">
+          <h3>
+            <a href="https://dave829.github.io/my_layout/" target="_blank">
+              My Landing Page
+            </a>
+          </h3>
+          <ul>
+            <li>HTML / CSS / FigmaApp</li>
+            <li>
+              I referred to the design draft, and the design draft was written
+              in Figma, <br />I worked while looking at the Figma.<br />
+              and Use the bootstrap grid system to capture page outline, <br />I
+              applied the method, According to the criteria, <br />I set the
+              HTML structure and wrote the class, <br />I styled it, CSS is
+              based on the basic writing method, setting, and layout.
+            </li>
+            <li>
+              <a href="https://dave829.github.io/my_layout/" target="_blank">
+                <img
+                  src="images/projects__snapshot/layout.gif"
+                  alt="landing page project"
+                  class="other_img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div> -->
+        <!-- <div class="other mywork">
+          <h3>
+            <a href="https://dave829.github.io/my_profile/" target="_blank">
+              My Profile Page
+            </a>
+          </h3>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>
+              Referring to the overall design draft,<br />
+              I divided the header, main, footer, and section by HTML element
+              and made it by structure.<br />
+              For CSS, I set the default settings, global variables, I styled it
+              through CSS according to the HTML element.<br />
+              Several interactions were handled in JavaScript.<br />
+              Implementation of specific functional behavior, styling changes
+              according to scrolling behavior I've applied the back.<br />
+              Besides that, I learned how to version and deploy projects with
+              GitHub.
+            </li>
+            <li>
+              <a href="https://dave829.github.io/my_profile/" target="_blank">
+                <img
+                  src="images/projects__snapshot/profile.gif"
+                  alt="profile page"
+                  class="other_img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div> -->
         <div class="other mywork">
           <h3>
             <a href="https://cool-toffee-0bb496.netlify.app/" target="_blank">
@@ -87,8 +147,19 @@
             </a>
           </h3>
           <ul>
+            <!-- <li>
+              Next.Js / Express.Js / Rest api / MongoDB / Vercel / AWS S3 / AWS
+              elastic beantalk / GitHub CI/CD / MUI / TypeScript / Zustand
+            </li> -->
+            
             <li>
-              <a href="https://cool-toffee-0bb496.netlify.app/">
+              <a href="https://cool-toffee-0bb496.netlify.app/" target="_blank">
+                <!-- <img
+                  src="images/2023-12-03 23 28 15.mp4"
+                  alt="forum project"
+                  class="other_img"
+                /> -->
+                <!-- width800/height500 -->
                 <video
                   src="images/video/myBoard.mp4"
                   loop
@@ -111,86 +182,45 @@
             </li>
             <li>
               <p>
-                Summary : Implementation and Distribution of Personal Blog Sites
-                with React. <br />
-                This project is in the form of a bulletin board and consists of
-                some simple items. The bulletin board is currently implementing
-                a simple CRUD, configured the backend with Firebase, and
-                deployed with Netlify . Updates are still in progress.
-              </p>
-            </li>
-            <li>
-              <span>Detail</span>
-              <p>
-                - I thought about what kind of project to make, and I decided to
-                make a personal blog because I think it will be useful for
-                various personal purposes, such as posting posts and sharing
-                materials. I looked at various sites for the overall design and
-                layout, and made simple interactions, dark modes, main screens,
-                and bulletin boards. The blog is currently being created, and I
-                want to continue to try various functions and designs, and I
-                will update it by considering what technologies to apply to the
-                blog. Local global state management was done with Context-api
-                and Rudux-toolkit.
-                <br />
-                <br />
-                - Local storage has solved the issue that can be solved when
-                refreshing in dark mode. Cookies do not need to be set up
-                separately like sessions, so we decided to store them in local
-                storage because they seem to be easy to use in a local
-                environment and are not security-sensitive materials. In rudex,
-                make the state of storing dark mode to boolean value, store it
-                in local storage, and then, It was implemented in such a way
-                that each of the dashcamode states was lowered to the necessary
-                components and shown through the trilateral operator. I was able
-                to see that the local storage values were well stored in the
-                Chrome Web browser application tab.
-                <br />
-                <br />
-              </p>
-              <p>
-                <span> - Adding a new post Issue </span>
-                <img
+                Summary : Implementation and Distribution of Personal Blog Sites with React. <br/> This project is in the form of a bulletin board and consists of some simple items.
+The bulletin board is currently implementing a simple CRUD, configured the backend with Firebase, and deployed with Netlify .
+Updates are still in progress.
+
+<br />
+<br />
+
+I thought about what kind of project to make, and I decided to make a personal blog because I think it will be useful for various personal purposes, such as posting posts and sharing materials.
+
+I looked at various sites for the overall design and layout, and made simple interactions, dark modes, main screens, and bulletin boards. The blog is currently being created, and I want to continue to try various functions and designs, and I will update it by considering what technologies to apply to the blog.
+
+Local global state management was done with Context-api and Rudux-toolkit.
+
+<br />
+<br />
+
+Local storage has solved the issue that can be solved when refreshing in dark mode. Cookies do not need to be set up separately like sessions, so we decided to store them in local storage because they seem to be easy to use in a local environment and are not security-sensitive materials.
+In rudex, make the state of storing dark mode to boolean value, store it in local storage, and then,
+It was implemented in such a way that each of the dashcamode states was lowered to the necessary components and shown through the trilateral operator. I was able to see that the local storage values were well stored in the Chrome Web browser application tab.
+
+<br />
+<br />
+
+*Adding a new post Issue
+<img
                   src="images/projects__snapshot/Adding a new post.jpg"
                   alt="forum project"
                   class="other_img"
                   width="800"
-                  height="1200"
+                  height="500"
                 />
-                After writing a new article on the bulletin board, I went back
-                to the bulletin board, and there was a problem that the new
-                article was not immediately reflected. In order to reduce
-                frequent network communication when using react queries, I set
-                the status to get the bulletin board list, that is, the get
-                request part, and set the storeTime, but no new communication
-                occurred during that time, so even if a new article was
-                registered, the get request did not occur. So, when a new
-                article was registered, the status of the bulletin board was
-                updated by using invalidQueries to get the list again, and the
-                status of the bulletin board was updated to see the new article.
-              </p>
-            </li>
-            <li>
-              <p>
-                Skills : React.js / Typescript / React-router / React-query /
-                Netlify / GitHub / Post-css / Styled-component / Tailwind-CSS
-                /Redux-Toolkit / Recoil / Firebase
-              </p>
-            </li>
-            <li>
-              <p>
-                -Github :
-                <a href="https://github.com/dave829/myBoard-Client-withTS"
-                  >https://github.com/dave829/myBoard-Client-withTS</a
-                >
-              </p>
-            </li>
-            <li>
-              <p>
-                -Link :
-                <a href="https://cool-toffee-0bb496.netlify.app/"
-                  >https://cool-toffee-0bb496.netlify.app/</a
-                >
+<p>After writing a new article on the bulletin board, I went back to the bulletin board, and there was a problem that the new article was not immediately reflected. In order to reduce frequent network communication when using react queries, I set the status to get the bulletin board list, that is, the get request part, and set the storeTime, but no new communication occurred during that time, so even if a new article was registered, the get request did not occur. So, when a new article was registered, the status of the bulletin board was updated by using invalidQueries to get the list again, and the status of the bulletin board was updated to see the new article.</p>
+Skills : React.js / Typescript / React-router / React-query / Netlify / GitHub / Post-css / Styled-component / Tailwind-CSS /Redux-Toolkit / Recoil / Firebase
+<br />
+<br />
+-Github : <a href="https://github.com/dave829/myBoard-Client-withTS">https://github.com/dave829/myBoard-Client-withTS</a>
+<br />
+-Link : <a href="https://cool-toffee-0bb496.netlify.app/">https://cool-toffee-0bb496.netlify.app/</a>
+
               </p>
             </li>
           </ul>
@@ -212,11 +242,14 @@
             </a>
           </h3>
           <ul>
+            <!-- <li>
+              <div><span>Image</span></div>
+              <a href="#URL" target="_blank">
+                <img src="#" alt="shopping mall project" class="other_img" />
+              </a>
+            </li> -->
             <li>
-              <a
-                href="https://thriving-dolphin-d36e94.netlify.app/"
-                target="_blank"
-              >
+              <a href="https://thriving-dolphin-d36e94.netlify.app/" target="_blank">
                 <img
                   src="images/projects__snapshot/myshop_shot.jpg"
                   alt="shopping mall project"
@@ -228,57 +261,28 @@
             </li>
             <li>
               <p>
-                Summary : This project is in the form of a shopping mall, and
-                consists of some simple items. The shopping mall has now
-                implemented a simple CRUD, Google login, logout and
-                administration account, real-time shopping list update function,
-                and deletion function were implemented. I configured the backend
-                with Firebase, and I distributed it with Netlify. We will
-                continue to add payment functions and other functions, and we
-                are updating the UI.
+                Summary : This project is in the form of a shopping mall, and consists of some simple items. The shopping mall has now implemented a simple CRUD, Google login, logout and administration account, real-time shopping list update function, and deletion function were implemented. I configured the backend with Firebase, and I distributed it with Netlify. We will continue to add payment functions and other functions, and we are updating the UI.
               </p>
             </li>
-            <li>
-              <span>Detail</span>
-              <p>
-                <span
-                  >- Issues when adding newly registered items to your shopping
-                  cart.</span
-                >
-                <img
-                  src="images/projects__snapshot/Adding shopping basket.jpg"
-                  alt="forum project"
-                  class="other_img"
-                  width="1000"
-                  height="1200"
-                />
-                When adding shopping items to your shopping cart There was a
-                problem that the number ui of the shopping cart icon in the top
-                navigation could not be counted. The issue is that data has been
-                sent to the server(Firebase) well, but changes are not imported
-                from the react UI. Using the react query, we fixed the issue by
-                updating the changed status. This problem also occurred when
-                adding new shopping items, and I solved it in the same way.
-              </p>
-            </li>
-            <li>
-              Skills : React / Context api / React-router / React-query /
-              Netlify / Firebase / GitHub CI/CD / Tailwind css
-            </li>
-            <li>
-              -Link :
-              <a href="https://thriving-dolphin-d36e94.netlify.app/"
-                >https://thriving-dolphin-d36e94.netlify.app/</a
-              >
-            </li>
-            <li>
-              -Github :
-              <a href="https://github.com/dave829/my-shoppy-app"
-                >https://github.com/dave829/my-shoppy-app</a
-              >
-            </li>
+                <li>
+                 Skills : React / Context api / React-router /
+                 React-query / Netlify / Firebase / GitHub CI/CD / Tailwind css
+               </li>
+               <br/>
+               <li>
+
+                 -Link : <a href="https://thriving-dolphin-d36e94.netlify.app/">https://thriving-dolphin-d36e94.netlify.app/</a>
+               </li>
+<li>
+
+  -Github : <a href="https://github.com/dave829/my-shoppy-app">https://github.com/dave829/my-shoppy-app</a>
+</li>
+              
+           
+         
           </ul>
         </div>
+       
       </section>
       <section class="reviwe_section">
         <h2>Project Review<span class="pick-color">.</span></h2>
