@@ -63,7 +63,7 @@ body {
   border-bottom: 1px solid #eeeeee;
 }
 
-.top .intro {
+.top #intro {
   font-size: 1.5rem;
   line-height: 1.7;
 }
